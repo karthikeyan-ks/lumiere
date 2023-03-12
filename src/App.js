@@ -19,6 +19,7 @@ function App() {
   })
   return (
     <div className="App">
+  
       <div className="App-header">
       <Upper device={{device}}/>
       <Lower device={{device}}/>
