@@ -1,0 +1,26 @@
+.lower_main{
+    display: flex;
+    height: 100%;
+    width: 100vw;
+    flex-direction: column;
+    color: white;
+    margin-top: -6%;
+    background-color: black;
+}
+.guideline{
+    display: flex;
+    height: fit-content;
+    background-color: white;
+    width: 90%;
+    margin: 10px;
+    transition: transform .2s;
+    font-family: 'Courier New', Courier, monospace;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+.guideline:hover{
+    transform: scale(1.0675);
+}
+p{
+    margin: 2px;
+    margin-left: 10%;
+}
