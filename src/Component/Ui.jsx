@@ -67,15 +67,15 @@ function Ui(props) {
                     </div>
                     
                     <div className="eventdetail">
-                    <div style={{margin:"1%",padding:"1%",fontSize:"4vw" ,width:"fit-content",maxWidth:"30vw",border:"solid white 2px"}}>
+                    <div style={{marginTop:".5%",marginLeft:".5%",paddingLeft:"1%",fontSize:"4vw" ,width:"fit-content",maxWidth:"30vw",border:"solid white 2px"}}>
                             <h4>Event Name</h4>
                             <p>{EventName}</p>
                     </div>
-                        <div style={{margin:"1%",padding:"1%",fontSize:"4vw" ,width:"fit-content",maxWidth:"30vw",border:"solid white 2px"}}>
+                        <div style={{marginTop:".5%",marginLeft:".5%",paddingLeft:"1%",fontSize:"4vw" ,width:"fit-content",maxWidth:"30vw",border:"solid white 2px"}}>
                             <h4>Event Head</h4>
                             <p>{EventHead}</p>
                         </div>
-                        <div style={{margin:"1%",padding:"1%",fontSize:"4vw" ,width:"fit-content",maxWidth:"30vw",border:"solid white 2px"}}>
+                        <div style={{marginTop:".5%",marginLeft:".5%",paddingLeft:"1%",fontSize:"4vw" ,width:"fit-content",maxWidth:"30vw",border:"solid white 2px"}}>
                             <h4>date and time</h4>
                             <p>{date}</p>
                         </div>
