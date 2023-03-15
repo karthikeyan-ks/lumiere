@@ -5,8 +5,8 @@
   justify-content: center;
   background-size: cover;
   overflow-x: hidden;
-  background-color: #0c1559;
-  background: linear-gradient(black,#141e2f);
+  background-color: black;
+  background: linear-gradient(to bottom #141e2f,black);
 }
 
 
