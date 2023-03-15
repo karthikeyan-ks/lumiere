@@ -2,18 +2,18 @@
   display: flex;
   text-align: center;
   min-height: 100%;
-  overflow-x: hidden;
-  background-color: #4d5360;
-  background-image: url("https://i.pinimg.com/originals/91/5f/c3/915fc38c6551df2f7da948c6dffe90eb.gif");
-  background-repeat: no-repeat, no-repeat;
+  justify-content: center;
   background-size: cover;
-  
+  overflow-x: hidden;
+  background-color: #0c1559;
+  background: linear-gradient(black,#141e2f);
 }
+
 
 .App-header {
   min-height: 100%;
-  display: block;
-  flex-direction: column;
+  display: flex;
+  width: 100%;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);

@@ -1,32 +1,18 @@
 import './App.css';
-import Upper from './Component/Upper';
-import Lower from './Component/Lower';
-import { useState } from 'react';
+import Ui from './Component/Ui';
 function App() {
-  let details = navigator.userAgent;
-  let regexp = /android|iphone|kindle|ipad/i;
-  let isMobileDevice = regexp.test(details);
-  const [device,changeDevice]=useState(isMobileDevice?"mobile":"desktop");
-   
-  window.addEventListener('resize',(eve)=>{
-    if(document.documentElement.clientWidth>600){
-      changeDevice("desktop");
-    }
-    else{
-      changeDevice("mobile");
-    }
-
-  })
   return (
     <div className="App">
-  
       <div className="App-header">
-      <Upper device={{device}}/>
-      <Lower device={{device}}/>
+        <Ui/> 
       </div>
     </div>
   );
 }
+/**
+ * <Upper device={{device}}/>
+      <Lower device={{device}}/>
+ */
 //testing changes
-
+//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
 export default App;

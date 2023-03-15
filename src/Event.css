@@ -1,0 +1,217 @@
+.Eventmain{
+    width:80%;
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow-x: hidden;
+    
+    background-size: cover;
+}
+p{
+    font-size: large;
+}
+.sub{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 99.75%;
+    margin: 0.25%;
+    min-height: 50%;
+    height: fit-content;
+}
+.sub1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 99.75%;
+    margin: 0.25%;
+    min-height: 70vh;
+    height: fit-content;
+}
+.first{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+}
+.imgheader{
+    color: white;
+    max-height: 100%;
+    width: 100%;
+    background-color:#151922;
+}
+img{
+    min-height: 100%;
+    width: 100%;
+    border-radius: 5px;
+}
+button {
+   width: 100%;
+    height: 100%;
+    background-color: black;
+    color: white;
+    font-size: x-large;
+    transition: transform .2s;
+    margin: 0px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.firstdiv{
+    display: flex;
+    flex-direction: row;
+    min-width: 20%;
+    max-width: 45%;
+    width: fit-content;
+    padding:1%;
+    align-items: center;
+    justify-content: space-evenly;
+    min-height: 100%;
+
+    border-radius: 5px;
+}
+ol{
+    min-width: 30%;
+    text-align: start;
+    padding-left: 10%;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    min-width: 45%;
+    display: flex;
+    flex-direction: column;
+    margin: 0.25%;
+    border-radius: 10%;
+   
+}
+.box1 {
+    display: flex;
+    height: fit-content;
+    width: fit-content;
+    min-width: 100%;
+    text-align: start;
+    color: black;
+    flex-direction: column;
+    justify-content: space-between;
+    transition: transform .2s;
+}
+h3{
+    margin: 1%;
+    font-size: x-large;
+    padding: 0px;
+}
+p{
+    margin: 1%;
+    padding-left: 2%;
+}
+.rule {
+    display: flex;
+    flex-direction: column;
+    width: 98%;
+    height: 98%;
+    overflow-y: scroll;
+    font-size: large;
+    background-color: #D3D3D3;
+    font-family: 'Courier New', Courier, monospace;
+    border-radius: 10px;
+    color:rgb(22, 17, 17);
+   
+}
+.lastbox{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: fit-content;
+    min-height: 30%;
+}
+.con{
+    height: 100%;
+    width: 100%;
+    color: black;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 1%;
+    margin-right: 1%;
+    align-items: center;
+    padding: 1%;
+    border-radius: 5px;
+    align-items: center;
+    flex-direction: row;
+}
+.pri{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: baseline;
+    min-height: 80%;
+    width: fit-content;
+    padding: 1%;
+    border-radius: 5px;
+    min-width: 40%;
+    background-color: #D3D3D3;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+}
+.reg{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: baseline;
+    min-height: 80%;
+    min-width: 40%;
+    width: fit-content;
+    margin: 0.25%;
+    padding-left: 0.25%;
+    background-color: #D3D3D3;
+    padding: 1%;
+    border-radius: 5px;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+}
+.sub2con{
+    display: flex;
+    flex-direction: column;
+    width: 98%;
+    min-height: 98%;
+    margin: 1%;
+    font-size: x-large;
+    color: black;
+    background-color: #D3D3D3;
+    border-radius: 10px;
+    font-family: 'Courier New', Courier, monospace;
+}
+.navspace{
+    height: 10vh;
+    width: 80%;
+    background-color: #151922;
+}
+@media all and (max-width: 1000px) {
+
+    /* For desktop: */
+    .sub{
+        flex-direction: column;
+        width: 80%;
+        height: 100%;
+        align-items: center;
+        justify-content: space-evenly;
+        
+    }
+    .firstdiv{
+        min-width: 100%;
+        height: 70vh;
+        margin-bottom: 2%;
+        padding: 5%;
+    }
+    .reg{
+        width: 40%;
+        height: 25%;
+    }
+    .pri{
+        width: 40%;
+        height: 25%;
+    }
+    .con{
+        align-items: flex-start;
+        height: fit-content;
+    }
+}
