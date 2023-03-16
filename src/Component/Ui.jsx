@@ -3,7 +3,7 @@ import { useState, useEffect } from "react";
 import './Ui.css';
 function Ui(props) {
     // eslint-disable-next-line
-    const [rules,setRules] = useState(['Open Event', 'Maximum 3 photo per participant', 'theme will be provided', 'No sort of editing is allowed', 'Judgement will be based on creativity ,captions and overall impact', 'Other rules will be provided on spot', 'Watermark can be added.But opacity should be 30%', 'photo should not be exposed'])
+    const [rules,setRules] = useState(['Open Event', 'Maximum 3 photo per participant', 'theme will be provided', 'No sort of editing is allowed', 'Judgement will be based on creativity ,captions and overall impact', 'Other rules will be provided on spot', 'Watermark can be added.But opacity should be 30%', 'photo should not be exposed','Open Event', 'Maximum 3 photo per participant', 'theme will be provided', 'No sort of editing is allowed', 'Judgement will be based on creativity ,captions and overall impact', 'Other rules will be provided on spot','Open Event', 'Maximum 3 photo per participant', 'theme will be provided', 'No sort of editing is allowed', 'Judgement will be based on creativity ,captions and overall impact', 'Other rules will be provided on spot'])
     const [list, setList] = useState([]);
     // eslint-disable-next-line
     const [guidelines,setGuidelines] = useState(['Open Event', 'Maximum 3 photo per participant', 'theme will be provided', 'No sort of editing is allowed', 'Judgement will be based on creativity ,captions and overall impact', 'Other rules will be provided on spot', 'Watermark can be added.But opacity should be 30%', 'photo should not be exposed'])
@@ -33,7 +33,7 @@ function Ui(props) {
         for(let i=0;i<guidelines.length;i++){
             setgList(prev=>[...prev,(<div key={"div"+i} className="mini"><li key={"li"+i}>{rules[i]}</li></div>)]);
         }
-    })
+    },guidelines)
     return (<div className="main">
         <div id="h1" className="h1">
             <h1>County Cricket</h1>
