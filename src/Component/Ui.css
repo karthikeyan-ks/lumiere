@@ -27,7 +27,7 @@ h1 {
     margin: 1%;
     display: flex;
     flex-direction: row;
-    align-items: center;
+    align-items: flex-start;
     width: 90%;
     justify-content: baseline;
     height: 25%;
@@ -60,7 +60,7 @@ h2 {
 .mini {
     display: flex;
     height: fit-content;
-    max-width: 25vw;
+    max-width: 100%;
     text-align: start;
     box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
 }
@@ -93,21 +93,21 @@ img {
     width: 100%;
     font-size: large;
     min-width: 50%;
-    min-height: 100%;
+    min-height: fit-content;
 
-    margin-top: 2%;
-    justify-content: space-between;
+    margin-top: 1%;
+    justify-content: flex-start;
 }
 
 .About {
     display: flex;
     width: 100%;
-    max-height: 90%;
+    min-height: 20%;
+    max-height: fit-content;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: baseline;
     align-items: baseline;
     margin-left: 3%;
-    margin-bottom: 3%;
 }
 
 footer {
@@ -141,6 +141,7 @@ button {
 
 ol {
     font-size: 1.5vw;
+    width: 100%;
 }
 
 @media only screen and (max-width: 600px) {
@@ -155,7 +156,6 @@ ol {
         margin: 0vw;
         width: 25vw;
         border-radius: 10px;
-        box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
         box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
     }
 
